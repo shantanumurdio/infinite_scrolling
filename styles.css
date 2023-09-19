@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Recursive', sans-serif; 
+}
+
+img {
+    width: 500px;
+    height: 600px;
+    margin: 2rem;
+    box-shadow: 0px 50px 100px -20px rgba(2, 2, 2, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px 0px rgba(12, 36, 62, 0.35);
+}
